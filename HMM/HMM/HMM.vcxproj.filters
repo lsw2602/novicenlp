@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="learnHMM">
+      <UniqueIdentifier>{9879f44b-6723-4b46-b005-07f72acf4a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{242a6de1-7934-4a01-a317-a7888f8315ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnHMM\parser">
+      <UniqueIdentifier>{fcbe2014-986f-41c6-9ac0-21c743d1162a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnHMM\parser\rapidxml">
+      <UniqueIdentifier>{75468aec-f310-46c3-aa7a-0f361b830e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnHMM\learning">
+      <UniqueIdentifier>{7996dfeb-a80f-4aaf-bde8-4070d0ba95ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="learnHMM\model">
+      <UniqueIdentifier>{dd7942da-28dd-43d0-b67e-73d827872ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{edfe7f94-5a76-4d0a-8fcd-7ef0122e8d63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\common\typedef.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common\utils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\parser\text_trainingset_parser.h">
+      <Filter>learnHMM\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\parser\trainingset_parser.h">
+      <Filter>learnHMM\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\parser\rapidxml\rapidxml.hpp">
+      <Filter>learnHMM\parser\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\parser\rapidxml\rapidxml_iterators.hpp">
+      <Filter>learnHMM\parser\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\parser\rapidxml\rapidxml_print.hpp">
+      <Filter>learnHMM\parser\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\parser\rapidxml\rapidxml_utils.hpp">
+      <Filter>learnHMM\parser\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\model\observation_model.h">
+      <Filter>learnHMM\model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\model\transition_model.h">
+      <Filter>learnHMM\model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\learnhmm\learning\hmm_learning_machine.h">
+      <Filter>learnHMM\learning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\common\utils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\learnhmm\parser\text_trainingset_parser.cpp">
+      <Filter>learnHMM\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\learnhmm\parser\trainingset_parser.cpp">
+      <Filter>learnHMM\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="source\learnhmm\model\observation_model.cpp">
+      <Filter>learnHMM\model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\learnhmm\model\transition_model.cpp">
+      <Filter>learnHMM\model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\learnhmm\learning\hmm_learning_machine.cpp">
+      <Filter>learnHMM\learning</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\hmmtest.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
